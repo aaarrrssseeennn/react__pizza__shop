@@ -1,0 +1,9 @@
+.pizzs__content{
+    margin-top: 20px;
+    .pizzs__blocks{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+}

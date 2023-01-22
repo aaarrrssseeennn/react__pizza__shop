@@ -1,0 +1,56 @@
+.profilePizza {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0px auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    .pizza__info {
+        margin-left: 20px;
+
+        .info__title {
+            font-weight: 600;
+            font-size: 32px;
+            color: #000000;
+            margin-bottom: 5px;
+        }
+
+        .info__description {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 145.4%;
+            color: #777777;
+            margin: 5px 0px;
+        }
+
+        .info__pizzaСomposition {
+            h3 {
+                font-weight: 600;
+            }
+
+            ul {
+                li {
+                    list-style: none;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        .info__price {
+            line-height: 60px;
+        }
+
+        .info__btn {
+            cursor: pointer;
+            background: #FE5F1E;
+            color: #fff;
+            font-weight: 700;
+            font-size: 16px;
+            border: 1px solid #D3D3D3;
+            border-radius: 30px;
+            padding: 10px 20px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.basket__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0px;
+    .basket__pizzaImg{
+        width: 80px;
+    }
+    h3, h2{
+        font-size: 22px;
+    }
+    button{
+        background: none;
+        border: 2px solid #D7D7D7;
+        padding: 10px 13px;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+}

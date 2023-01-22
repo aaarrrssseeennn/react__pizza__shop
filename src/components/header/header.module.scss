@@ -1,0 +1,59 @@
+.NavLink{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    span{
+        margin-left: 10px;
+    }
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header__logo {
+        display: flex;
+        align-items: center;
+
+        .logo__title {
+            margin-left: 10px;
+
+            h3 {
+                font-weight: 800;
+                font-size: 22px;
+                text-transform: uppercase;
+                color: #181818;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #7B7B7B;
+            }
+        }
+    }
+
+    .header__buttons {
+        display: flex;
+        align-items: center;
+
+        li {
+            span{
+                margin-left: 3px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 17px;
+                color: #5C5C5C;
+                text-decoration: none;
+            }
+
+            list-style: none;
+            display: flex;
+            align-items: center;
+            margin: 0px 9px;
+            cursor: pointer;
+        }
+    }
+}

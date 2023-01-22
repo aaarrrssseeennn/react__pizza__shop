@@ -1,0 +1,46 @@
+.NavLink{
+    text-decoration: none;
+}
+
+.BoughtPizza {
+    margin: 25px auto;
+    text-align: center;
+
+    .BoughtPizza__img {
+        margin: 20px;
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 29px;
+        margin: 10px 0px;
+        color: #EB5A1E;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000;
+        opacity: 0.4;
+        max-width: 285px;
+        margin: 10px auto;
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        margin: 0px auto;
+        background: none;
+        color: #fff;
+        background-color: #EB5A1E;
+        font-weight: 700;
+        font-size: 14px;
+        cursor: pointer;
+        padding: 10px 20px;
+        border: 1px solid #EB5A1E;
+        border-radius: 30px;
+        img{
+            margin-right: 5px;
+        }
+    }
+}
